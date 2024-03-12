@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.computer-eng {
+  font-size: 35px;
+}
+
+.landing-img {
+  width: 100%;
+  height: 440px;
+  background: url("https://images.unsplash.com/photo-1455894127589-22f75500213a?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+
+.opacity::after {
+  content: '';
+  width: 100%;
+  height: 441px;
+  position: absolute;
+  top: 9.7%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1024px) {}
+
+@media (max-width: 1024px) {
+  .group {
+    position: absolute;
+    right: 10%;
+    width: 350px;
+    padding: 5px;
+  }
+
+  .datelocation {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .groupLocation {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .search-area,
+  .body-heads,
+  .views,
+  .writepostbtn {
+    display: none;
+  }
+
+
+  .bodyitems {
+    flex-direction: column-reverse;
+  }
+
+  .datelocation {
+    margin: 10px 0;
+  }
+
+  .group {
+    position: absolute;
+    right: 30%;
+    width: 310px;
+    padding: 5px;
+  }
+
+  .groupPadding {
+    padding: 0 10px 30px 0;
+  }
+
+  .account {
+    width: 96%;
+  }
+}
+
+@media (max-width: 426px) {
+  .heading {
+    display: none;
+  }
+
+  .creat-acc {
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .landingtext {
+    left: 10px
+  }
+
+  .computertext {
+    font-size: 16px;
+  }
+
+  .bodyitems,
+  .bodyhead {
+    width: 90%;
+  }
+
+  .bodyitems {
+    margin-left: 10px;
+  }
+
+  .datelocation {
+    flex-direction: column;
+  }
+
+  .group {
+    left: 10%;
+  }
+
+  .accountitems {
+    flex-direction: column;
+  }
+
+  .item1 {
+    width: 94%;
+    margin: auto;
+  }
+
+  .signupText {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .createAccText {
+    margin-top: -20px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+
+  .accountimg {
+    display: none;
+  }
+
+}
+
+@media (max-width: 376px) {
+  .createAccText {
+    margin-top: 10px;
+    margin-left: -5px;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .datelocation {
+    font-size: 14px;
+  }
+
+}

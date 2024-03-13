@@ -9,7 +9,7 @@ export default function CreateAccount({ createAcc, setCreateAcc }) {
             <div className='accountitems flex '>
                 <div className='item1 flex flex-col w-[40%] mx-10 my-2'>
                     <h1 className='text-4xl font-bold my-3'>Create Account</h1>
-                    <div className='flex'>
+                    <div className='flex '>
                         <input type='text' placeholder='First Name'
                             className='w-[50%] px-3 py-[10px] bg-slate-50 border-none outline-none border border-slate-400 '
                         />
@@ -28,8 +28,8 @@ export default function CreateAccount({ createAcc, setCreateAcc }) {
                     />
                     <button className='text-center my-3 py-2 rounded-full text-white font-bold bg-blue-600'>Create Account</button>
 
-                    <button className='text-center border text-slate-700 border-slate-400 py-1 mt-[7px] rounded-md'>Sign up with Facebook</button>
-                    <button className='text-center border text-slate-700 border-slate-400 py-1 mt-[7px] rounded-md'>Sign up with Google</button>
+                    <button className='text-center bg-slate-50 border text-slate-700 border-slate-400 py-1 mt-[7px] rounded-md'>Sign up with Facebook</button>
+                    <button className='text-center bg-slate-50 border text-slate-700 border-slate-400 py-1 mt-[7px] rounded-md'>Sign up with Google</button>
 
                 </div>
                 <div>

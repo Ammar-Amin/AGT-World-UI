@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LastElem({ work, title, profile, name }) {
     return (
-        <div className='w-[90%] min-h-[250px] mt-6 border border-slate-400'>
+        <div className='w-[90%] max-md:w-[100%] min-h-[250px] mt-6 border border-slate-400'>
             <div className='p-3'>
                 <i className="ri-edit-line"></i> {work}
             </div>

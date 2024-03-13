@@ -9,10 +9,10 @@ export default function SignIn({ createAcc, setCreateAcc }) {
                 <div className=' item1 flex flex-col w-[40%] mx-10 my-2'>
                     <h1 className='text-4xl font-bold my-3'>Sign In</h1>
                     <input type='text' placeholder='Email'
-                        className='px-3 py-2 bg-slate-100 border-none outline-none mb-[1px]'
+                        className='px-3 py-2 bg-slate-50 border-none outline-none mb-[1px]'
                     />
                     <input type='text' placeholder='Password'
-                        className='px-3 py-2 bg-slate-100 border-none outline-none'
+                        className='px-3 py-2 bg-slate-50 border-none outline-none'
                     />
                     <button className='text-center my-3 py-2 rounded-full text-white font-bold bg-blue-600'>Sign In</button>
 

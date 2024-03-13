@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <div className={
-        bgDark ? 'overlay visible fixed w-full h-screen z-50 bg-black/40'
-          : 'overlay hidden fixed w-full h-screen z-50 bg-black/40'
+        bgDark ? 'visible fixed w-full h-screen z-50 bg-black/40'
+          : 'hidden'
       }>
         <Account bgDark={bgDark} setBgDark={setBgDark} />
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BodyElem1({ img, work, title, profile, name }) {
     return (
-        <div className='w-[90%] min-h-[400px] mt-6 border border-slate-400'>
+        <div className='w-[90%] max-md:w-[100%] min-h-[400px] mt-6 border border-slate-400'>
             <img src={img} alt='Img'
                 className='w-full h-[180px] object-cover object-top-[20px]' />
             <div className='p-3'>

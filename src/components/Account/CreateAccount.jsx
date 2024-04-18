@@ -4,11 +4,11 @@ export default function CreateAccount({ createAcc, setCreateAcc }) {
     return (
 
         <div className='z-40 mt-8 bg-white w-full min-h-[500px] rounded-xl'>
-            <p className='py-3 text-[14px] text-center text-slate-600 bg-slate-100 rounded-t-xl'>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+            <p className='learn py-3 text-[14px] text-center text-slate-600 bg-slate-100 rounded-t-xl'>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
 
             <div className='accountitems flex '>
                 <div className='item1 flex flex-col w-[40%] mx-10 my-2'>
-                    <h1 className='text-4xl font-bold my-3'>Create Account</h1>
+                    <h1 className='signTxt text-4xl font-bold my-3'>Create Account</h1>
                     <div className='flex '>
                         <input type='text' placeholder='First Name'
                             className='w-[50%] px-3 py-[10px] bg-slate-50 border-none outline-none border border-slate-400 '
@@ -17,23 +17,23 @@ export default function CreateAccount({ createAcc, setCreateAcc }) {
                             className='w-[50%] px-3 py-[10px] bg-slate-50 border-none outline-none border border-slate-400 '
                         />
                     </div>
-                    <input type='text' placeholder='Email'
+                    <input type='emai;' placeholder='Email'
                         className='px-3 py-[10px] bg-slate-50 border-none outline-none border border-slate-400 '
                     />
-                    <input type='text' placeholder='Password'
+                    <input type='password' placeholder='Password'
                         className='px-3 py-[10px] bg-slate-50 border-none outline-none border border-slate-400'
                     />
-                    <input type='text' placeholder='Confirm Password'
+                    <input type='password' placeholder='Confirm Password'
                         className='px-3 py-[10px] bg-slate-50 border-none outline-none border border-slate-400'
                     />
-                    <button className='text-center my-3 py-2 rounded-full text-white font-bold bg-blue-600'>Create Account</button>
+                    <button className='btn text-center my-3 py-2 rounded-full text-white font-bold bg-blue-600'>Create Account</button>
 
                     <button className='text-center bg-slate-50 border text-slate-700 border-slate-400 py-1 mt-[7px] rounded-md'>Sign up with Facebook</button>
                     <button className='text-center bg-slate-50 border text-slate-700 border-slate-400 py-1 mt-[7px] rounded-md'>Sign up with Google</button>
 
                 </div>
                 <div>
-                    <div className='h-[30px] text-[15px] flex justify-center items-center mt-8'>
+                    <div className='already h-[30px] text-[15px] flex justify-center items-center mt-8'>
                         <p>Already have an Account?</p>
                         <button className='ml-2 bg-transparent text-blue-700 outline-none border-none cursor-pointer'
                             onClick={() => setCreateAcc(!createAcc)}

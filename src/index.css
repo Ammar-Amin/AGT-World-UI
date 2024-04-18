@@ -150,8 +150,46 @@
 }
 
 @media (max-width: 376px) {
+  .accountitems {
+    padding: 0 15px;
+  }
+
+  .learn {
+    font-size: 13px;
+    padding-top: -30px;
+    margin: 10px 0;
+  }
+
+  .btn {
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+  }
+
+  .signTxt {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .forget {
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+  }
+
+  .already {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+  }
+
+  .signupText {
+    font-size: 11px;
+    padding: 0 20px;
+  }
+
   .createAccText {
-    margin-top: 10px;
+    font-size: 13px;
+    margin-top: -20px;
     margin-left: -5px;
     flex-direction: column;
     margin-bottom: 30px;

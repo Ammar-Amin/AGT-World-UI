@@ -4,7 +4,7 @@ This project is a clone of the user interface (UI) of the ATG World website, imp
 
 ## Live Demo
 
-You can view the live demo of the project [here](https://ammar-amin-task-1-completed.netlify.app/).
+You can view the live demo of the project [here](https://atg-world-web.netlify.app/).
 
 ## Features
 
